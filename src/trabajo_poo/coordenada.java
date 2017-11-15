@@ -1,24 +1,31 @@
 package trabajo_poo;
 
 public class coordenada {
-    
-    private int a;
-    private int b;
-    private String[][] coordenada;
-    
+    private int x;
+    private int y;
 
-    public coordenada(int a, int b, String[][] coordenada) {
-        this.a = a;
-        this.b = b;
-        this.coordenada = coordenada;
+    public coordenada(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+
     
-    public String[][] getCoordenadas(){
-        return coordenada;
-    }
-    
-    public void setCoordenada(String[][] coordenada){
-        this.coordenada = coordenada;
-    }
     
 }
